@@ -1,6 +1,6 @@
 /* ==========================================================================
    Design System & Styling for Premium Wedding Invitation
-   Theme: Luxury Forest Green & champagne Gold
+   Theme: Luxury Romantic Berry Rose & Champagne Gold
    ========================================================================== */
 
 /* Imports */
@@ -8,9 +8,9 @@
 
 /* Variables */
 :root {
-  --primary-color: #0c2318;
-  --primary-light: #133324;
-  --primary-dark: #06140d;
+  --primary-color: #2c0c16;
+  --primary-light: #3d1422;
+  --primary-dark: #1a050d;
   
   --accent-gold: #c9a84c;
   --accent-gold-light: #ebd69b;
@@ -19,9 +19,9 @@
   
   --text-light: #fbf9f5;
   --text-muted: #dcd1be;
-  --text-dark: #08110b;
+  --text-dark: #1a050d;
   
-  --glass-bg: rgba(12, 35, 24, 0.75);
+  --glass-bg: rgba(44, 12, 22, 0.75);
   --glass-border: rgba(201, 168, 76, 0.25);
   --glass-shadow: rgba(0, 0, 0, 0.6);
   
@@ -223,7 +223,7 @@ h1, h2, h3, h4 {
 #hero {
   min-height: auto !important;
   padding: 7rem 2rem 5rem 2rem !important;
-  background: linear-gradient(to bottom, rgba(6, 20, 13, 0.55) 0%, rgba(6, 20, 13, 0.98) 100%), 
+  background: linear-gradient(to bottom, rgba(26, 5, 13, 0.55) 0%, rgba(26, 5, 13, 0.98) 100%), 
               url('assets/images/hero_bg.png') no-repeat center center;
   background-size: cover;
   display: flex;
@@ -570,7 +570,7 @@ footer {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: rgba(12, 35, 24, 0.6); /* very secondary transparent glass */
+  background: rgba(44, 12, 22, 0.6); /* very secondary transparent glass */
   border: 1px solid rgba(201, 168, 76, 0.35); /* thin secondary border */
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
@@ -587,7 +587,7 @@ footer {
 .music-circle-btn:hover {
   transform: scale(1.08);
   border-color: var(--accent-gold);
-  background: rgba(12, 35, 24, 0.8);
+  background: rgba(44, 12, 22, 0.8);
 }
 
 .music-circle-btn.playing {
@@ -655,7 +655,7 @@ footer {
   z-index: 105;
   display: flex;
   gap: 0.4rem;
-  background: rgba(12, 35, 24, 0.75);
+  background: rgba(44, 12, 22, 0.75);
   border: 1px solid rgba(201, 168, 76, 0.2);
   padding: 4px;
   border-radius: 30px;
