@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       closing_quote: "«Ba’zi lahzalar so‘zga sig‘maydi. Ular faqat his qilinadi. Sizni yonimizda ko‘rishdan mamnun bo‘lamiz.»",
       scroll_open: "Ochish uchun bosing",
       events_subtitle: "Marosim Tafsilotlari",
-      events_title: "Bizni Kutamiz",
+      events_title: "Sizni Kutamiz",
       event1_title: "Kuyov-Navkar",
       event2_time: "Nonushta",
       event2_title: "Nahor Oshi",
