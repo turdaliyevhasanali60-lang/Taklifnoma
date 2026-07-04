@@ -863,51 +863,6 @@ footer {
   animation-duration: 0.7s;
 }
 
-/* Language Switcher outline Widget */
-.language-switcher {
-  position: fixed;
-  top: 1.5rem;
-  right: 1.5rem;
-  z-index: 105;
-  display: flex;
-  gap: 0.4rem;
-  background: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(140, 114, 71, 0.2);
-  padding: 4px;
-  border-radius: 30px;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 6px 20px rgba(94, 75, 46, 0.06);
-  transition: var(--transition-smooth);
-}
-
-.lang-btn {
-  background: transparent;
-  border: 1px solid transparent;
-  color: var(--text-muted);
-  font-family: var(--font-sans);
-  font-weight: 600;
-  font-size: 0.65rem;
-  letter-spacing: 0.05em;
-  padding: 5px 12px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: var(--transition-smooth);
-}
-
-.lang-btn:hover {
-  color: var(--accent-gold-light);
-  border-color: rgba(140, 114, 71, 0.2);
-}
-
-.lang-btn.active {
-  background: transparent;
-  border-color: var(--accent-gold);
-  color: var(--accent-gold);
-  box-shadow: inset 0 0 10px rgba(140, 114, 71, 0.1);
-  text-shadow: 0 0 5px rgba(140, 114, 71, 0.2);
-}
-
 /* ==========================================================================
    Animations & Transition Effects
    ========================================================================== */
@@ -1043,11 +998,6 @@ footer {
   .music-widget.circular-music-container {
     bottom: 1.5rem;
     left: 1.5rem;
-  }
-  
-  .language-switcher {
-    top: 1rem;
-    right: 1rem;
   }
 
   #countdown {
