@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 1. CONTENT DICTIONARY (UZBEK ONLY)
   // ==========================================================================
   const content = {
-    title: "G'anibekovlar Oilasi — Taklifnoma",
+    title: "Hurmat bilan Sardorbek Ganibekov — Taklifnoma",
     hero_subtitle: "Nikoh To'yi",
     hero_quote: "«Sevgi — bu bir-biriga qarash emas, balki bir yo‘nalishda birga qarashdir.»",
     hero_author: "— Jaloliddin Rumiy",
